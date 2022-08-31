@@ -4,9 +4,19 @@
 
 本程序将 [aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) 部署于 [replit.com](https://replit.com/) 实现阿里云盘文件的快速查看及下载。
 
+
+
 点击下面的按钮进行快速部署
 
 [![](run-on-replit.svg)](https://repl.it/github/wangrui027/aliyundirve-webdav-replit)
+
+点击按钮运行应用后第一次运行必然报错：
+
+>`Nix channel was not detected in your imported .replit file but is required for all Nix Repls. The latest stable Nix channel "[object Object]" was automatically added to your .replit file.
+
+尝试手动添加正确的 `REFRESH_TOKEN` 环境变量后解决问题，但本质原因还没弄清楚，了解的同学感谢指正
+
+
 
 为降低 webdav 使用复杂度，程序仅对 `aliyundrive-webdav` 程序的核心功能提供配置，具体如下：
 

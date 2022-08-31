@@ -3,14 +3,9 @@ if [ -z ${REFRESH_TOKEN} ];then
     exit 1
 fi
 
-if [ "${REFRESH_TOKEN}" -eq "xxx" ];then
-    echo '请点击左侧工具栏的 "锁型标志" (Secrets)，新增正确的 [REFRESH_TOKEN]'
-	exit 1
-fi
-
 if [ -z ${WEBDAV_VERSION} ];then
-    echo "没有传递 [WEBDAV_VERSION] 配置，将使用最新版 aliyundrive-webdav"
     export WEBDAV_VERSION="v1.10.1"
+    echo "没有传递 [WEBDAV_VERSION] 配置，将使用 ${WEBDAV_VERSION}"
 fi
 
 if [ ! -f "aliyundrive-webdav" ];then
