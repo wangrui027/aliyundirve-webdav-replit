@@ -14,7 +14,7 @@ if [ ! -f "aliyundrive-webdav" ];then
   rm -f aliyundrive-webdav.tar.gz
 fi
 
-echo -n "./aliyundrive-webdav -r ${REFRESH_TOKEN}" > startup.sh
+echo -n "./aliyundrive-webdav --cache-ttl 60 -r ${REFRESH_TOKEN}" > startup.sh
 
 if [ ${ROOT_DIR} ];then
     echo -n " --root ${ROOT_DIR}" >> startup.sh
