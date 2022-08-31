@@ -6,7 +6,7 @@
 
 点击下面的按钮进行快速部署
 
-[![](run-on-replit.svg)](https://repl.it/github/wangrui027/aliyundirve-drive-replit)
+[![](run-on-replit.svg)](https://repl.it/github/wangrui027/aliyundirve-webdav-replit)
 
 为降低 webdav 使用复杂度，程序仅对 `aliyundrive-webdav` 程序的核心功能提供配置，具体如下：
 
@@ -35,8 +35,8 @@
 
 | 密钥名称       | 必选 | 密钥说明                                                     |
 | -------------- | ---- | ------------------------------------------------------------ |
-| WEBDAV_VERSION | 是   | aliyundrive-webdav 程序的版本号，如：v1.10.1、v1.10.0 等具体的版本号 |
 | REFRESH_TOKEN  | 是   | 阿里云盘的 refresh token                                     |
+| WEBDAV_VERSION | 否   | aliyundrive-webdav 程序的版本号，如：v1.10.1、v1.10.0 等具体的版本号 |
 | ROOT_DIR       | 否   | webdav 根目录对应的网盘路径，[默认值：/]                     |
 | READ_ONLY      | 否   | webdav 是否只读，随便传一个值，或不传                        |
 | AUTH_USER      | 否   | webdav 访问账户                                              |
