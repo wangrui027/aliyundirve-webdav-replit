@@ -4,7 +4,7 @@ if [ -z ${REFRESH_TOKEN} ];then
 fi
 
 if [ -z ${WEBDAV_VERSION} ];then
-    export WEBDAV_VERSION="v1.10.1"
+    export WEBDAV_VERSION="v1.9.0"
     echo "没有传递 [WEBDAV_VERSION] 配置，将使用 ${WEBDAV_VERSION}"
 fi
 
