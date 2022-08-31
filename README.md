@@ -14,7 +14,7 @@
 
 >`Nix channel was not detected in your imported .replit file but is required for all Nix Repls. The latest stable Nix channel "[object Object]" was automatically added to your .replit file.
 
-**报错之后点击 `Files` 栏目右上角的 `···` --> `Show Hidden files` 发现会自动创建了 `replit.nix` 文件，并对 `.replit` 文件添加了几行内容，删除新增的内容及 `replit.nix` 文件后再次点击 `Run` 按钮运行程序**
+**报错之后点击 `Files` 栏目右上角的 `···` --> `Show Hidden files` 会发现系统自动创建了 `replit.nix` 文件，并对 `.replit` 文件添加了几行内容，删除新增的内容及 `replit.nix` 文件后再次点击 `Run` 按钮运行程序**
 
 为降低 webdav 使用复杂度，程序仅对 `aliyundrive-webdav` 程序的核心功能提供配置，具体如下：
 
