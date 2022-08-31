@@ -4,6 +4,10 @@
 
 本程序将 [aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) 部署于 [replit.com](https://replit.com/) 实现阿里云盘文件的快速查看及下载。
 
+点击下面的按钮进行快速部署
+
+[![](run-on-replit.svg)](https://repl.it/github/wangrui027/aliyundirve-drive-replit)
+
 为降低 webdav 使用复杂度，程序仅对 `aliyundrive-webdav` 程序的核心功能提供配置，具体如下：
 
 - 支持 `aliyundrive-webdav` 程序版本的指定
